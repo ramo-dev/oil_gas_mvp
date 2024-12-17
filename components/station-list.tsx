@@ -17,18 +17,6 @@ export function StationList({
 }: StationListProps) {
   const { stations, loading, error } = useStations();
 
-  useEffect(() => {
-    const ges = () =>
-      stations.forEach((station) => {
-        console.log("station?.fuel_prices:", station?.fuel_prices);
-        console.log(
-          "typeof station?.fuel_prices:",
-          typeof station?.fuel_prices,
-        );
-      });
-    ges();
-  }, [loading]);
-
   if (loading) return <div>Loading stations...</div>;
   if (error) return <div>Error: {error}</div>;
 

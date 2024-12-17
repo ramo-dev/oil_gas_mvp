@@ -9,8 +9,8 @@ export const useStations = () => {
   useEffect(() => {
     const fetchStations = async () => {
       try {
-        const url = process.env.NEXT_BASE_URL;
-        if (!url) return;
+        const url = process.env.NEXT_PUBLIC_BASE_URL;
+        //@ts-ignore
         const res = await fetch(url);
         if (!res.ok) {
           throw new Error(`Failed to fetch: ${res.statusText}`);
