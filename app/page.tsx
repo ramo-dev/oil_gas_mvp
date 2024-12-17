@@ -68,7 +68,7 @@ export default function Home() {
           >
             <Fuel className="w-24 h-24 mx-auto mb-6 text-primary animate-pulse" />
             <h1 className="text-5xl font-bold mb-4 dark:text-zinc-100">
-              FuelFinder Pro
+              Ultra clean concept
             </h1>
             <p className="text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
               Revolutionizing how you find, compare, and track fuel stations

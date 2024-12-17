@@ -20,7 +20,7 @@ export function Navbar() {
       <div className="px-10 flex h-14 items-center">
         <div className="flex flex-1 items-center justify-between container mx-auto">
           <Link href="/" className="flex items-center space-x-2">
-            <span className="font-bold">FuelFinder Pro</span>
+            <span className="font-bold">Ultra Clean Concept</span>
           </Link>
           <nav className="flex items-center space-x-4">
             <DropdownMenu>
@@ -50,4 +50,3 @@ export function Navbar() {
     </header>
   );
 }
-
